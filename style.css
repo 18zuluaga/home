@@ -150,6 +150,7 @@ main{
 .separation{
   position: absolute;
   top: 0;
+  
 }
 
 .about{
@@ -161,6 +162,7 @@ main{
   align-items: center;
   gap: 100px;
   justify-content: center;
+  
 }
 
 .about_txt{
@@ -184,8 +186,19 @@ main{
 
 .about_img{
   background-color: #003329;
-  height: 70%;
+  height: 90%;
   width: 25%;
+  position: relative;
+}
+
+.about_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: -5%;
+  right: 10px;
 }
 
 
@@ -227,4 +240,43 @@ main{
   border-radius: 30px;
   align-self: self-start;
   margin-top: 2%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  background-color: #359381;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+footer .logo {
+  object-fit: scale-down;
+  object-position: center;
+  height: 90%;
+  margin-right: 10%;
+  margin-top: 30px;
+  
+}
+
+footer h2 {
+  color: antiquewhite;
+  font-weight: 400;
+}
+
+footer div {
+  margin: 10px;
+}
+
+footer ul li {
+  color: #faebd7;
+  list-style: none;
+  padding-top: 5px;
+}
+
+.Socials img {
+  height: 50px;
+  width: auto;
 }
